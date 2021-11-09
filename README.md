@@ -1,3 +1,5 @@
 # Hadasim
-![image](https://user-images.githubusercontent.com/73226034/141011373-d4e3e6b2-fdc0-485c-81d1-5e2782cb72b3.png)
-![image](https://user-images.githubusercontent.com/73226034/141011476-ce0fe7d2-e646-4981-9b76-e02f7f6014d2.png)
+The text:
+![image](https://user-images.githubusercontent.com/73226034/141012724-111ce50a-9961-4b0c-8ca4-1ed7e9fd6fb0.png)
+The results:
+![image](https://user-images.githubusercontent.com/73226034/141012837-3594bf32-5346-4734-879d-dd317fc64107.png)

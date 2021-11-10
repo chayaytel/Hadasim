@@ -92,7 +92,7 @@ class test_file:
                     else:
                         if(max < count):
                             max = count
-                            count = 0
+                        count = 0
         return max
 
 

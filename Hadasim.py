@@ -80,6 +80,22 @@ class test_file:
 
         return counter_dict.most_common()[0], most_common_not_syntactic_word
 
+    def max_words_without_k(self):
+        max = 0
+        count = 0
+        with open(self.file, 'r') as f:
+            for line in f:
+                array_word_in_line = line.split(" ") #Separate the lines to words
+                for word in array_word_in_line:
+                    if 'k' not in word:
+                        count+=1
+                    else:
+                        if(max < count):
+                            max = count
+                            count = 0
+        return max
+
+
 s='C:\\Users\\user\\Searches\\Downloads\\hadasim.txt'
 tf=test_file(s)
 print("Count lines: ",tf.count_lines())
@@ -88,6 +104,7 @@ print("Count uniq words: ",tf.count_uniq_words())
 print("Max len, Avd len: ",tf.len_sentence())
 print("Coloer in the file: ",tf.colors_in_file())
 print("Popular word, popular word doesn't syntactic word: ",tf.popular_word())
+print("Maximum length of words without 'k': ", tf.max_words_without_k())
 
 
 

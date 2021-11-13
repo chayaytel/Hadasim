@@ -106,5 +106,3 @@ print("Coloer in the file: ",tf.colors_in_file())
 print("Popular word, popular word doesn't syntactic word: ",tf.popular_word())
 print("Maximum length of words without 'k': ", tf.max_words_without_k())
 
-
-

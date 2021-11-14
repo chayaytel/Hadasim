@@ -61,7 +61,7 @@ class test_file:
                         "will", "won't", "aren't", "isn't", "was", "wasn't",
                         "were", "have", "has", "hasn't", "haven't", "had",
                         "hadn't", "been", 'at', 'that', 'then', 'the',
-                        'a', 'be', 'to', 'this', 'by' ]
+                        'a', 'be', 'to', 'this', 'by', 'for' ]
         counter_dict = Counter()
         with open(self.file, 'r') as f:
             for line in f:
